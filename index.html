@@ -22,6 +22,8 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css" />
+  <link rel="stylesheet" href="css/audio-player.css">
 
 </head>
 
@@ -72,7 +74,7 @@
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">	  
 	<span class="down-button"><a class="btn btn-primary btn-xs text-uppercase js-scroll-trigger" href="#services"><i class="fas fa-chevron-down"></i></a>
 	</span>
-	<ol class="carousel-indicators">
+	<!--<ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -84,83 +86,72 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-    </ol>
+    </ol>-->
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
       <div class="carousel-item active" style="background-image: url('./img/slide/p1.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">First Slide</h3>
-          <p class="lead">This is a description for the first slide.</p>		  
+          
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p2.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Second Slide</h3>
-          <p class="lead">This is a description for the second slide.</p>		  
+         	  
         </div>
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p3.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Third Slide</h3>
-          <p class="lead">This is a description for the third slide.</p>
+         
         </div>
       </div>
 	  <!-- Slide Four - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p4.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Fourth Slide</h3>
-          <p class="lead">This is a description for the fourth slide.</p>
+          
         </div>
       </div>
       <!-- Slide Five - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p5.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Fifth Slide</h3>
-          <p class="lead">This is a description for the fifth slide.</p>
+          
         </div>
       </div>
       <!-- Slide Six - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p6.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Sixth Slide</h3>
-          <p class="lead">This is a description for the sixth slide.</p>
+         
         </div>
       </div>
 	  <!-- Slide Seven - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p7.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Seventh Slide</h3>
-          <p class="lead">This is a description for the seventh slide.</p>
+          
         </div>
       </div>
       <!-- Slide Eight - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p8.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Eighth Slide</h3>
-          <p class="lead">This is a description for the eighth slide.</p>
+         
         </div>
       </div>
       <!-- Slide Nine - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p9.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Ninth Slide</h3>
-          <p class="lead">This is a description for the ninth slide.</p>
+          
         </div>
       </div>
 	  <!-- Slide Ten - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p10.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Tenth Slide</h3>
-          <p class="lead">This is a description for the tenth slide.</p>
+          
         </div>
       </div>
       <!-- Slide Eleven - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/slide/p11.jpg')">
         <div class="carousel-caption d-md-block">
-          <h3 class="display-4">Eleventh Slide</h3>
-          <p class="lead">This is a description for the eleventh slide.</p>
+         
         </div>
       </div>
     </div>
@@ -180,31 +171,37 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Statistics</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">Media</h2>
+		  </br>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-stack-1x fa-inverse">19</i>
-          </span>
-          <h4 class="service-heading">Awards</h4>
+		  <a class="portfolio-link" data-toggle="modal" href="#">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-stack-1x fa-trophy fa-inverse"></i>
+            </span>
+		  </a>
+          <h4 class="service-heading">Awards</h4>		  
         </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-stack-1x fa-inverse">19</i>
-          </span>
+		  <a class="portfolio-link" data-toggle="modal" href="#mediaModal2">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-stack-1x fa-music fa-inverse"></i>
+            </span>
+		  </a>
           <h4 class="service-heading">Songs</h4>
         </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-stack-1x fa-inverse">19</i>
-          </span>
-          <h4 class="service-heading">Movies</h4>
+		  <a class="portfolio-link" data-toggle="modal" href="#">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-stack-1x fa-play fa-inverse"></i>
+            </span>
+		  </a>
+          <h4 class="service-heading">Videos</h4>
         </div>
       </div>
     </div>
@@ -216,7 +213,6 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
       <div class="row">
@@ -227,11 +223,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/potrait_mini.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Shots</h4>
-            <p class="text-muted">ABC</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -241,11 +236,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/live_mini.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Performances</h4>
-            <p class="text-muted">ABC</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -255,11 +249,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/ghazal_mini.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Ghazal Appearances</h4>
-            <p class="text-muted">ABC</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -269,11 +262,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/awards_mini.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Awards & Accolades</h4>
-            <p class="text-muted">ABC</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -283,11 +275,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/studio_mini.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Behind The Scenes</h4>
-            <p class="text-muted">ABC</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -297,11 +288,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/dance_mini.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Dance</h4>
-            <p class="text-muted">ABC</p>
           </div>
         </div>
       </div>
@@ -389,125 +379,6 @@
     </div>
   </section>
 
-  <!-- Team
-  <section class="bg-light page-section" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Kay Garland</h4>
-            <p class="text-muted">Lead Designer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- Clients
-  <section class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <!-- Contact -->
   <section class="page-section" id="contact">
     <div class="container">
@@ -593,6 +464,117 @@
     </div>
   </footer>
 
+  <!-- Media Modals -->
+
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="mediaModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Songs</h2>				
+				<div class="add-bottom">
+					<div id="mainwrap">
+						<div id="alwrap">
+							<ul id="alList"></ul>
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-primary" data-dismiss="modal" type="button">
+				<i class="fas fa-times"></i>
+				Close</button>        
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="mediaModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Songs</h2>				
+				<div class="add-bottom">
+					<div id="mainwrap">
+						<div id="nowPlay">
+							<span id="npAction">Paused...</span><span id="npTitle"></span>
+						</div>
+						<div id="audiowrap">
+							<div id="audio0">
+								<audio id="audio1" preload controls controlslist="nodownload">Your browser does not support HTML5 Audio! 😢</audio>
+							</div>
+							<div id="tracks">
+								<a id="btnPrev"><i class="fas fa-xs fa-step-backward fa-inverse"></i></a><a id="btnNext"><i class="fas fa-xs fa-step-forward fa-inverse"></i></a>
+							</div>
+						</div>
+						<div id="plwrap">
+							<ul id="plList"></ul>
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-primary" data-dismiss="modal" type="button">
+				<i class="fas fa-times"></i>
+				Close</button>        
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="mediaModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Videos</h2>				
+				<div class="add-bottom">
+					<div id="mainwrap">
+						<div id="nowPlay">
+							<span id="npAction">Paused...</span><span id="npTitle"></span>
+						</div>
+						<div id="audiowrap">
+							<div id="audio0">
+								<video id="audio1" preload controls controlslist="nodownload">Your browser does not support HTML5 Audio! 😢</video>
+							</div>
+							<div id="tracks">
+								<a id="btnPrev"><i class="fas fa-xs fa-step-backward fa-inverse"></i></a><a id="btnNext"><i class="fas fa-xs fa-step-forward fa-inverse"></i></a>
+							</div>
+						</div>
+						<div id="plwrap">
+							<ul id="plList"></ul>
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-primary" data-dismiss="modal" type="button">
+				<i class="fas fa-times"></i>
+				Close</button>        
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Portfolio Modals -->
 
   <!-- Modal 1 -->
@@ -605,25 +587,115 @@
           </div>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
+                <h2 class="text-uppercase">Shots</h2>				
+				<div class="row text-center text-lg-left">			
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_01.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_02.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/shots/sithara_potrait_03.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/shots/sithara_potrait_04.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_05.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_06.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_07.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_08.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/shots/sithara_potrait_09.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/shots/sithara_potrait_10.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/shots/sithara_potrait_11.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/shots/sithara_potrait_12.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_13.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_14.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_15.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/shots/sithara_potrait_16.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_potrait_17.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/shots/sithara_portrait_18.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_portrait_19.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/shots/sithara_portrait_20.jpg" alt="">
+						</a>
+					</div>
+				</div> 
+            <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <i class="fas fa-times"></i>
+              Close</button>        
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -639,25 +711,76 @@
           </div>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Performances</h2>
+              
+			<div class="row text-center text-lg-left">			
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" style="height:100%" src="img/performance/live_58.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" style="height:100%" src="img/performance/live_59.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" src="img/performance/live_60.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" style="height:100%" src="img/performance/live_61.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" src="img/performance/sithara_live_02_mini.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" src="img/performance/sithara_live_03_mini.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" style="height:100%" src="img/performance/sithara_live_04_mini.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" style="height:100%" src="img/performance/sithara_live_48_mini.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" style="height:100%" src="img/performance/sithara_live_49_mini.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" style="height:100%" src="img/performance/sithara_live_50_mini.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" style="height:100%" src="img/performance/sithara_live_51_mini.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				<a href="#" class="d-block mb-4 image">
+						<img class="img-fluid" style="height:100%" src="img/performance/sithara_live_52_mini.jpg" alt="">
+					</a>
+				</div>
+			</div>
+            <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <i class="fas fa-times"></i>
+              Close</button>
+            </div>            
         </div>
       </div>
     </div>
@@ -673,25 +796,75 @@
           </div>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
+                <h2 class="text-uppercase">Ghazal Appearances</h2>				
+				<div class="row text-center text-lg-left">			
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/ghazals/sithara_ghazal_01_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/ghazals/sithara_ghazal_02_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/ghazals/sithara_ghazal_03_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/ghazals/sithara_ghazal_04_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/ghazals/sithara_ghazal_05_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/ghazals/sithara_ghazal_06_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/ghazals/sithara_ghazal_07_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/ghazals/sithara_ghazal_08_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/ghazals/sithara_ghazal_09_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/ghazals/sithara_ghazal_10_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/ghazals/sithara_ghazal_11_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/ghazals/sithara_ghazal_23_mini.jpg" alt="">
+						</a>
+					</div>
+				</div> 
+            <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <i class="fas fa-times"></i>
+              Close</button>        
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -707,25 +880,75 @@
           </div>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
+                <h2 class="text-uppercase">Awards & Accolades</h2>				
+				<div class="row text-center text-lg-left">			
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/awards/sithara_awards_01_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/awards/sithara_awards_02_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/awards/sithara_awards_03_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/awards/sithara_awards_04_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/awards/sithara_awards_05_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/awards/sithara_awards_06_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/awards/sithara_awards_07_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/awards/sithara_awards_09_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/awards/sithara_awards_10_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/awards/sithara_awards_11_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/awards/sithara_awards_13_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/awards/sithara_awards_14_mini.jpg" alt="">
+						</a>
+					</div>
+				</div> 
+            <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <i class="fas fa-times"></i>
+              Close</button>        
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -741,25 +964,45 @@
           </div>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
+                <h2 class="text-uppercase">Behind The Scenes</h2>				
+				<div class="row text-center text-lg-left">			
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%"  src="img/studio/sithara_studio_01_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/studio/sithara_studio_02_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%"  src="img/studio/sithara_studio_03_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/studio/sithara_studio_04_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/studio/sithara-studio-mini-05.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" style="height:100%" src="img/studio/sithara-studio-mini-06.jpg" alt="">
+						</a>
+					</div>
+				</div> 
+            <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <i class="fas fa-times"></i>
+              Close</button>        
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -775,25 +1018,35 @@
           </div>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
+                <h2 class="text-uppercase">Dance</h2>				
+				<div class="row text-center text-lg-left">			
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/dance/sithara_dance_01_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/dance/sithara_dance_02_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/dance/sithara_dance_03_mini.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+					<a href="#" class="d-block mb-4 image">
+							<img class="img-fluid" src="img/dance/sithara_dance_04_mini.jpg" alt="">
+						</a>
+					</div>
+				</div> 
+            <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <i class="fas fa-times"></i>
+              Close</button>        
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -812,6 +1065,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+  
+  <!-- Music Player -->
+  <script src="https://cdn.plyr.io/3.5.6/plyr.polyfilled.js"></script>
+  
+  <!-- Custom Music Player Files -->
+  <script src="js/audioPlayer.js"></script>
 
 </body>
 
