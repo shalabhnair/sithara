@@ -30,37 +30,37 @@ jQuery(function ($) {
             }, {
                 "track": 2,
                 "name": "O Ponthoovalaayi",
-                "duration": "8:30",
+                "duration": "4:49",
                 "file": "audio/Ee%20adutha%20kaalathu-O%20Ponthoovalai%28Sithara%29"
             },  {
                 "track": 3,
                 "name": "Kangal Neeye",
-                "duration": "5:01",
+                "duration": "5:40",
                 "file": "audio/Muppoluthum%20un%20karpanaigal-Kangal%20Neeyae%28Sithara%29"
             }, {
                 "track": 4,
                 "name": "Azhake Azhake Minal",
-                "duration": "8:31",
+                "duration": "3:59",
                 "file": "audio/Azhake%20Azhake"
             }, {
                 "track": 5,
                 "name": "Panchara Chiri Kondu",
-                "duration": "5:05",
+                "duration": "4:01",
                 "file": "audio/Marykkundoru%20kujaadu-Pancharachiri%20Kondu%28Sithara%2C%20Franco%29"
             }, {
                 "track": 6,
                 "name": "Hoyyuthuthe",
-                "duration": "2:48",
+                "duration": "3:01",
                 "file": "audio/Aidhu%20ondla%20aidu-Hoyyuthuthe%20malai%28Sithara%29"
             }, {
                 "track": 7,
                 "name": "Hath Le Le",
-                "duration": "5:44",
+                "duration": "4:32",
                 "file": "audio/Mayamohini-Haath%20lele%28Sithara%29"
             }, {
                 "track": 8,
                 "name": "Aathadi",
-                "duration": "5:26",
+                "duration": "4:45",
                 "file": "audio/Krishnaveni%20Panjalai%20-%20Aathaadi%28Sithara%2CHarish%20raghavendra%29"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
