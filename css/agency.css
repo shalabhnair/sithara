@@ -57,7 +57,7 @@ tr.empty-row {
 	height: 315px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
 	.year,.award,.award-name {
 		font-size: 10px;
 		text-transform: uppercase;
