@@ -156,4 +156,10 @@ jQuery(function ($) {
         var noSupport = $('#audio1').text();
         $('.container').append('<p class="no-support">' + noSupport + '</p>');
     }
+	
+	$('.portfolio-modal').on('hidden.bs.modal', function () {
+		audio.pause();
+        loadTrack(index);
+	})
+	
 });
